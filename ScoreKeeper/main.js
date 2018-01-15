@@ -18,4 +18,6 @@ p2Button.addEventListener("click", function(){
 res.addEventListener("click", function(){
   p1Score = 0;
   p2Score = 0;
+  p1Display.textContent = p1Score;
+  p2Display.textContent = p2Score;
 })
